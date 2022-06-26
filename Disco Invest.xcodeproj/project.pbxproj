@@ -1,0 +1,665 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B7A060DC28684AF600F2B798 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A060DB28684AF600F2B798 /* AppDelegate.swift */; };
+		B7A060DE28684AF600F2B798 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A060DD28684AF600F2B798 /* SceneDelegate.swift */; };
+		B7A060E328684AF600F2B798 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7A060E128684AF600F2B798 /* Main.storyboard */; };
+		B7A060E528684AF800F2B798 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7A060E428684AF800F2B798 /* Assets.xcassets */; };
+		B7A060E828684AF800F2B798 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7A060E628684AF800F2B798 /* LaunchScreen.storyboard */; };
+		B7A060F328684AF800F2B798 /* Disco_InvestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A060F228684AF800F2B798 /* Disco_InvestTests.swift */; };
+		B7A060FD28684AF800F2B798 /* Disco_InvestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A060FC28684AF800F2B798 /* Disco_InvestUITests.swift */; };
+		B7A060FF28684AF800F2B798 /* Disco_InvestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A060FE28684AF800F2B798 /* Disco_InvestUITestsLaunchTests.swift */; };
+		B7A061142868512600F2B798 /* CotationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A061132868512600F2B798 /* CotationsViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B7A060EF28684AF800F2B798 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B7A060D028684AF600F2B798 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B7A060D728684AF600F2B798;
+			remoteInfo = "Disco Invest";
+		};
+		B7A060F928684AF800F2B798 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B7A060D028684AF600F2B798 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B7A060D728684AF600F2B798;
+			remoteInfo = "Disco Invest";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B7A060D828684AF600F2B798 /* Disco Invest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Disco Invest.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7A060DB28684AF600F2B798 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B7A060DD28684AF600F2B798 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B7A060E228684AF600F2B798 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B7A060E428684AF800F2B798 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B7A060E728684AF800F2B798 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B7A060E928684AF800F2B798 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../Info.plist; sourceTree = "<group>"; };
+		B7A060EE28684AF800F2B798 /* Disco InvestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Disco InvestTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7A060F228684AF800F2B798 /* Disco_InvestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Disco_InvestTests.swift; sourceTree = "<group>"; };
+		B7A060F828684AF800F2B798 /* Disco InvestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Disco InvestUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7A060FC28684AF800F2B798 /* Disco_InvestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Disco_InvestUITests.swift; sourceTree = "<group>"; };
+		B7A060FE28684AF800F2B798 /* Disco_InvestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Disco_InvestUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B7A061132868512600F2B798 /* CotationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CotationsViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B7A060D528684AF600F2B798 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7A060EB28684AF800F2B798 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7A060F528684AF800F2B798 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B7A060CF28684AF600F2B798 = {
+			isa = PBXGroup;
+			children = (
+				B7A060DA28684AF600F2B798 /* Disco Invest */,
+				B7A060F128684AF800F2B798 /* Disco InvestTests */,
+				B7A060FB28684AF800F2B798 /* Disco InvestUITests */,
+				B7A060D928684AF600F2B798 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B7A060D928684AF600F2B798 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B7A060D828684AF600F2B798 /* Disco Invest.app */,
+				B7A060EE28684AF800F2B798 /* Disco InvestTests.xctest */,
+				B7A060F828684AF800F2B798 /* Disco InvestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B7A060DA28684AF600F2B798 /* Disco Invest */ = {
+			isa = PBXGroup;
+			children = (
+				B7A061172868538300F2B798 /* Application */,
+				B7A0610B2868508C00F2B798 /* Modules */,
+				B7A061162868532000F2B798 /* Resources & Assets */,
+			);
+			path = "Disco Invest";
+			sourceTree = "<group>";
+		};
+		B7A060F128684AF800F2B798 /* Disco InvestTests */ = {
+			isa = PBXGroup;
+			children = (
+				B7A060F228684AF800F2B798 /* Disco_InvestTests.swift */,
+			);
+			path = "Disco InvestTests";
+			sourceTree = "<group>";
+		};
+		B7A060FB28684AF800F2B798 /* Disco InvestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B7A060FC28684AF800F2B798 /* Disco_InvestUITests.swift */,
+				B7A060FE28684AF800F2B798 /* Disco_InvestUITestsLaunchTests.swift */,
+			);
+			path = "Disco InvestUITests";
+			sourceTree = "<group>";
+		};
+		B7A0610B2868508C00F2B798 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				B7A0610C286850B700F2B798 /* Cotations */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		B7A0610C286850B700F2B798 /* Cotations */ = {
+			isa = PBXGroup;
+			children = (
+				B7A0610D286850BE00F2B798 /* Model */,
+				B7A0610E286850CA00F2B798 /* View */,
+				B7A0610F286850D000F2B798 /* ViewController */,
+				B7A06110286850D700F2B798 /* ViewModel */,
+			);
+			path = Cotations;
+			sourceTree = "<group>";
+		};
+		B7A0610D286850BE00F2B798 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B7A0610E286850CA00F2B798 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B7A060E128684AF600F2B798 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B7A0610F286850D000F2B798 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				B7A061132868512600F2B798 /* CotationsViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		B7A06110286850D700F2B798 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		B7A061162868532000F2B798 /* Resources & Assets */ = {
+			isa = PBXGroup;
+			children = (
+				B7A060E428684AF800F2B798 /* Assets.xcassets */,
+			);
+			path = "Resources & Assets";
+			sourceTree = "<group>";
+		};
+		B7A061172868538300F2B798 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				B7A060E628684AF800F2B798 /* LaunchScreen.storyboard */,
+				B7A060DB28684AF600F2B798 /* AppDelegate.swift */,
+				B7A060DD28684AF600F2B798 /* SceneDelegate.swift */,
+				B7A060E928684AF800F2B798 /* Info.plist */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B7A060D728684AF600F2B798 /* Disco Invest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7A0610228684AF800F2B798 /* Build configuration list for PBXNativeTarget "Disco Invest" */;
+			buildPhases = (
+				B7A060D428684AF600F2B798 /* Sources */,
+				B7A060D528684AF600F2B798 /* Frameworks */,
+				B7A060D628684AF600F2B798 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Disco Invest";
+			productName = "Disco Invest";
+			productReference = B7A060D828684AF600F2B798 /* Disco Invest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B7A060ED28684AF800F2B798 /* Disco InvestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7A0610528684AF800F2B798 /* Build configuration list for PBXNativeTarget "Disco InvestTests" */;
+			buildPhases = (
+				B7A060EA28684AF800F2B798 /* Sources */,
+				B7A060EB28684AF800F2B798 /* Frameworks */,
+				B7A060EC28684AF800F2B798 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B7A060F028684AF800F2B798 /* PBXTargetDependency */,
+			);
+			name = "Disco InvestTests";
+			productName = "Disco InvestTests";
+			productReference = B7A060EE28684AF800F2B798 /* Disco InvestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B7A060F728684AF800F2B798 /* Disco InvestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7A0610828684AF800F2B798 /* Build configuration list for PBXNativeTarget "Disco InvestUITests" */;
+			buildPhases = (
+				B7A060F428684AF800F2B798 /* Sources */,
+				B7A060F528684AF800F2B798 /* Frameworks */,
+				B7A060F628684AF800F2B798 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B7A060FA28684AF800F2B798 /* PBXTargetDependency */,
+			);
+			name = "Disco InvestUITests";
+			productName = "Disco InvestUITests";
+			productReference = B7A060F828684AF800F2B798 /* Disco InvestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B7A060D028684AF600F2B798 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					B7A060D728684AF600F2B798 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					B7A060ED28684AF800F2B798 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = B7A060D728684AF600F2B798;
+					};
+					B7A060F728684AF800F2B798 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = B7A060D728684AF600F2B798;
+					};
+				};
+			};
+			buildConfigurationList = B7A060D328684AF600F2B798 /* Build configuration list for PBXProject "Disco Invest" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B7A060CF28684AF600F2B798;
+			productRefGroup = B7A060D928684AF600F2B798 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B7A060D728684AF600F2B798 /* Disco Invest */,
+				B7A060ED28684AF800F2B798 /* Disco InvestTests */,
+				B7A060F728684AF800F2B798 /* Disco InvestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B7A060D628684AF600F2B798 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7A060E828684AF800F2B798 /* LaunchScreen.storyboard in Resources */,
+				B7A060E528684AF800F2B798 /* Assets.xcassets in Resources */,
+				B7A060E328684AF600F2B798 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7A060EC28684AF800F2B798 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7A060F628684AF800F2B798 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B7A060D428684AF600F2B798 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7A060DC28684AF600F2B798 /* AppDelegate.swift in Sources */,
+				B7A060DE28684AF600F2B798 /* SceneDelegate.swift in Sources */,
+				B7A061142868512600F2B798 /* CotationsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7A060EA28684AF800F2B798 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7A060F328684AF800F2B798 /* Disco_InvestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7A060F428684AF800F2B798 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7A060FF28684AF800F2B798 /* Disco_InvestUITestsLaunchTests.swift in Sources */,
+				B7A060FD28684AF800F2B798 /* Disco_InvestUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B7A060F028684AF800F2B798 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B7A060D728684AF600F2B798 /* Disco Invest */;
+			targetProxy = B7A060EF28684AF800F2B798 /* PBXContainerItemProxy */;
+		};
+		B7A060FA28684AF800F2B798 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B7A060D728684AF600F2B798 /* Disco Invest */;
+			targetProxy = B7A060F928684AF800F2B798 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B7A060E128684AF600F2B798 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B7A060E228684AF600F2B798 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B7A060E628684AF800F2B798 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B7A060E728684AF800F2B798 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B7A0610028684AF800F2B798 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B7A0610128684AF800F2B798 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B7A0610328684AF800F2B798 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Disco Invest/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "sabertlili.com.Disco-Invest";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		B7A0610428684AF800F2B798 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Disco Invest/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "sabertlili.com.Disco-Invest";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		B7A0610628684AF800F2B798 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "sabertlili.com.Disco-InvestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Disco Invest.app/Disco Invest";
+			};
+			name = Debug;
+		};
+		B7A0610728684AF800F2B798 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "sabertlili.com.Disco-InvestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Disco Invest.app/Disco Invest";
+			};
+			name = Release;
+		};
+		B7A0610928684AF800F2B798 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "sabertlili.com.Disco-InvestUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Disco Invest";
+			};
+			name = Debug;
+		};
+		B7A0610A28684AF800F2B798 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "sabertlili.com.Disco-InvestUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Disco Invest";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B7A060D328684AF600F2B798 /* Build configuration list for PBXProject "Disco Invest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7A0610028684AF800F2B798 /* Debug */,
+				B7A0610128684AF800F2B798 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7A0610228684AF800F2B798 /* Build configuration list for PBXNativeTarget "Disco Invest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7A0610328684AF800F2B798 /* Debug */,
+				B7A0610428684AF800F2B798 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7A0610528684AF800F2B798 /* Build configuration list for PBXNativeTarget "Disco InvestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7A0610628684AF800F2B798 /* Debug */,
+				B7A0610728684AF800F2B798 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7A0610828684AF800F2B798 /* Build configuration list for PBXNativeTarget "Disco InvestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7A0610928684AF800F2B798 /* Debug */,
+				B7A0610A28684AF800F2B798 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B7A060D028684AF600F2B798 /* Project object */;
+}
